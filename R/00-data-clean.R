@@ -10,9 +10,7 @@
 #       FFF6611.csv
 
 # outputs: 
-#      co2-processed.csv
-#      co2-processed-min.csv
-#      co2-processed-max.csv
+#      data-clean.csv
 #      
 #**********************************************
 
@@ -32,7 +30,7 @@ library(lubridate)
 
 # Specify the directory --------------------------------------------------------
 
-here::i_am("R/custom-line-U.R")
+here::i_am("R/00-data-clean.R")
 
 
 # loading raw data  ------------------------------------------------------------
