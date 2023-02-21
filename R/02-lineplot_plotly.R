@@ -1,8 +1,8 @@
 ################################################################################
 # Data Set: data-clean.csv
-# Purpose: Prepare vertical line plot.
-# Last edited by: Muhammad Uzair 
-# Last edited date: 21-02-2023
+# Purpose: Convert vertical line plot into plotly
+# Last edited by: Sarfaraz Jamal 
+# Last edited date: 22-02-2023
 ################################################################################
 
 #**********************************************
@@ -26,7 +26,7 @@ library(plotly)
 
 # Specify the directory --------------------------------------------------------
 
-here::i_am("R/01-lineplot.R")
+here::i_am("R/02-lineplot_plotly.R")
 
 
 # loading raw data  ------------------------------------------------------------
@@ -71,7 +71,8 @@ bit_depth_plot_themed_bi <- bit_depth_plot + theme(
   panel.background = element_blank()  
 )
 
-save the plot
+#save the plot
+
 ggsave(filename = "vertical-line-bit-depth-plot", plot = bit_depth_plot_themed_bi,
       #device = "png", path = 'plots/visual-2',
       #width = 30, height = 30, units = "cm")
