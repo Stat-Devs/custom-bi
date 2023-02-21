@@ -33,7 +33,7 @@ here::i_am("R/02-lineplot_plotly.R")
 
 
 # load in raw data and create workfile
-df <- read_csv(here("data","clean-data","data-clean.csv"))
+df <- read_csv(here("data","clean-data","clean-data-2.csv"))
 
 
 
@@ -71,9 +71,13 @@ bit_depth_plot_themed_bi <- bit_depth_plot + theme(
   panel.background = element_blank()  
 )
 
+#convert into plotly
+
+ggplotly(bit_depth_plot_themed_bi)
+
 #save the plot
 
-ggsave(filename = "vertical-line-bit-depth-plot", plot = bit_depth_plot_themed_bi,
+#ggsave(filename = "vertical-line-bit-depth-plot", plot = bit_depth_plot_themed_bi,
       #device = "png", path = 'plots/visual-2',
       #width = 30, height = 30, units = "cm")
 
