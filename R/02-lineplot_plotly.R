@@ -71,9 +71,6 @@ bit_depth_plot_themed_bi <- bit_depth_plot + theme(
   panel.background = element_blank()  
 )
 
-#convert into plotly
-
-ggplotly(bit_depth_plot_themed_bi)
 
 #save the plot
 
