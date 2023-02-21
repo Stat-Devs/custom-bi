@@ -22,6 +22,7 @@ rm(list = ls())
 
 library(tidyverse)
 library(here)
+library(plotly)
 
 # Specify the directory --------------------------------------------------------
 
@@ -74,9 +75,6 @@ bit_depth_plot_themed_bi <- bit_depth_plot + theme(
 ggsave(filename = "vertical-line-bit-depth-plot", plot = bit_depth_plot_themed_bi,
       device = "png", path = 'plots/visual-2',
       width = 30, height = 30, units = "cm")
-
-
-
 
 
 
