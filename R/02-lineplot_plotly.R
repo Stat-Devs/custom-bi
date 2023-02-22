@@ -46,7 +46,7 @@ LightGrey = "#01B8AA"
 
 # Custom line chart 
 bit_depth_plot <- ggplot(data = df, aes(x = hole_dep_ft, y = datetime)) + 
-  geom_line(alpha = 0.7, color = "blue", orientation = "y", size = 0.7) +
+  geom_line(alpha = 0.7, color = "blue", orientation = "y", linewidth = 0.7) +
   xlab("Hole Depth (ft)") +
   ylab("Time (Hours)") +
   ggtitle("Hole Depth with respect to time") +
