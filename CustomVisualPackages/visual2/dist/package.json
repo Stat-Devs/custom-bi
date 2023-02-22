@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Stat Devs","email":"info@statdevs.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/visual27DDFE59F36FA435FA7840995803100CC.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"visual2","displayName":"Visual2","guid":"visual27DDFE59F36FA435FA7840995803100CC","visualClassName":"Visual","version":"1.0.0","description":"Vertical Line Chart","supportUrl":"www.statdevs.com","gitHubUrl":"https://github.com/Stat-Devs/custom-bi"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
