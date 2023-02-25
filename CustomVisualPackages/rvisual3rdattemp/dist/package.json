@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"StatDevs","email":"info@statdevs.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/rvisual3rdattempB340EA341708495FBA3C30A83BD1B946.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"rvisual3rdattemp","displayName":"rvisual3rdattemp","guid":"rvisual3rdattempB340EA341708495FBA3C30A83BD1B946","visualClassName":"Visual","version":"1.0.0","description":"VerticalLineChart","supportUrl":"www.statdevs.com","gitHubUrl":"https://github.com/Stat-Devs/custom-bi"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

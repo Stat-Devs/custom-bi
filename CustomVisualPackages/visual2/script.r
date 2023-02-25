@@ -34,14 +34,13 @@ BaseColour = "#777777"
     panel.background = element_blank()  
   )
   
-  bit_depth_plot_themed_bi
+  bit_depth_plot_themed_bi;
 ####################################################
 
 ############# Create and save widget ###############
-p = ggplotly(bit_depth_plot_themed_bi);
-internalSaveWidget(p, 'out.html');
+
 ####################################################
 
 ################ Reduce paddings ###################
-ReadFullFileReplaceString('out.html', 'out.html', ',"padding":[0-9]*,', ',"padding":0,')
+
 ####################################################
